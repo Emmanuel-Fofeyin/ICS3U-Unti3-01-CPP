@@ -9,9 +9,9 @@ int main() {
     int Sn;
 
     // input
-    std::cout << "Enter in any number (mm): ";
+    std::cout << "Enter in any number: ";
     std::cin >> Fn;
-    std::cout << "Enter in any number (mm): ";
+    std::cout << "Enter in any number: ";
     std::cin >> Sn;
 
     // process
@@ -19,7 +19,7 @@ int main() {
     Sn = (Fn + Sn);
 
     // output
-    ;std::cout << "" << std::endl;
+    ; std::cout << "" << std::endl;
     std::cout << "Total is: " << Fn << "" << std::endl;
     std::cout << "\nDone." << std::endl;
 }
