@@ -5,21 +5,22 @@
 #include <iostream>
 int main() {
     // this function calculates area and perimeter
-    int Fn;
-    int Sn;
+    int first_number;
+    int second_number;
+    int sum;
 
     // input
     std::cout << "Enter in any number: ";
-    std::cin >> Fn;
+    std::cin >> first_number;
     std::cout << "Enter in any number: ";
-    std::cin >> Sn;
+    std::cin >> second_number;
 
     // process
-    Fn = (Fn + Sn);
-    Sn = (Fn + Sn);
+    sum = (first_number + second_number);
 
     // output
-    ; std::cout << "" << std::endl;
-    std::cout << "Total is: " << Fn << "" << std::endl;
+    std::cout << "" << std::endl;
+    std::cout << "" << first_number << "+" << "" << second_number <<
+    "=" << sum << std::endl;
     std::cout << "\nDone." << std::endl;
 }
