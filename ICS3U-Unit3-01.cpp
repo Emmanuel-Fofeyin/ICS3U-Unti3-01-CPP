@@ -1,4 +1,5 @@
-// Copyright 2022 MTHS
+// Copyright 2022 Emmanuel
+
 // Author: Emmanuel
 // This program adds two numbers
 // with user input
